@@ -56,13 +56,13 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        border: 2px solid rgb(3, 149, 23);
+        border: 2px solid rgb(93, 98, 203);
         
         .top{
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: green;
+            background-color: rgb(93, 98, 203);
             padding: 15px 20px;
             
             img{
@@ -111,7 +111,7 @@
         }
         .bottom{
             display: flex;
-            border-top: 2px solid rgb(3, 149, 23);
+            border-top: 2px solid rgb(93, 98, 203);
             height: 40px;
             textarea{
                
@@ -122,11 +122,11 @@
             button{
                 flex: 1;
                 height: 100%;
-                background-color: rgb(3, 149, 23);
+                background-color: rgb(93, 98, 203);
                 border: none;
                 cursor: pointer;
                 &:hover{
-                    background-color: darkgreen;
+                    background-color: rgb(2, 14, 185);
                     color: white;
                 }
 
