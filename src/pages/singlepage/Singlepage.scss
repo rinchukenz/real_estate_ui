@@ -1,0 +1,159 @@
+.singlepage{
+    display: flex;
+    background-color: whitesmoke;
+    .left{
+        flex: 3;
+        padding-left: 30px;
+        .wrapper{
+            height: calc(100vh - 60px);
+            padding-right: 40px;
+            .info{
+                margin-top: 20px;
+                .top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .post{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+                        h1{
+                            font-weight: 200;
+                            font-size: 25px;
+                        }
+                        .address{
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                            font-size: 13px;
+                            color: rgb(136, 133, 133);
+                            img{
+                                width: 15px;
+                                height: 15px;
+                            }
+                        }
+                        .price{
+                            background-color: rgb(0, 0, 0);
+                            padding: 4px 8px;
+                            width: max-content;
+                            border-radius: 5px;
+                            font-size: 14px;
+                            color: white;
+                        }
+
+                    }
+                    .user{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        align-items: center;
+                        justify-content: center;
+                        padding: auto;
+                        width: 110px;
+                        height: 90px;
+                        background-color: rgb(0, 0, 0);
+                        border-radius: 5px;
+                        color: white;
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            border: 2px solid white;
+                            object-fit: cover;
+                        }
+                        
+                    }
+                }
+                .bottom{
+                    margin-top: 30px;
+                    color: rgb(113, 108, 108);
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+    }
+    .right{
+        flex: 2;
+        height: calc(100vh - 60px);
+        background: rgb(0, 0, 0);
+        .wrapper{
+            height: calc(100vh - 60px);
+            padding: 0px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .title{
+                font-size: 15px;
+                font-weight: 600;
+                color: white;
+            }
+            
+            p{
+                font-size: 13px;
+                font-weight: 600;
+            }
+            span{
+                font-size: 12px;
+            }
+
+            img{
+                width: 23px;
+                height: 23px;
+            }
+
+            .listvertical{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 10px;
+                background-color: whitesmoke;
+                border-radius: 8px;
+                .features{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    line-height: 13px;
+                    
+                }
+            }
+
+            .sizes{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .sizeinfo{
+                    display: flex;
+                    gap: 10px;
+                    background-color: whitesmoke;
+                    align-items: center;
+                    padding: 5px 10px;
+                    border-radius: 8px;
+                }
+            }
+
+            .places{
+                display: flex;
+                background-color: whitesmoke;
+                justify-content: space-between;
+                padding: 5px 10px;
+                border-radius: 8px;
+                .place{
+                    display: flex;
+                    gap: 10px;
+                    justify-content: space-between;
+                    align-items: center;
+                    line-height: 13px;
+                }
+            }
+
+            .map{
+                border: none;
+                margin-top: 0px;
+                border: 1px solid rgb(255, 255, 255);
+            }
+        }
+    }
+}

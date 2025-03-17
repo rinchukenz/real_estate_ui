@@ -1,0 +1,32 @@
+.popup{
+    display: flex;
+    gap: 20px;
+    .imgcontainer{
+        display: flex;
+        align-items: center;
+        transition: 0.3s all ease;
+        &:hover{
+            scale: 1.04;
+        }
+        img{
+            width: 60px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    }
+    
+    .textcontainer{
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title{
+
+            transition: 0.3s all ease;
+            &:hover{
+                scale: 1.04;
+            }
+        }
+    }
+}

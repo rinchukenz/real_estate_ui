@@ -1,0 +1,158 @@
+
+
+
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    
+
+  
+
+    a{
+        transition: all 0.4s ease;
+
+        &:hover{
+            scale: 1.05;
+        }
+
+    }
+
+    .left{
+        flex: 3;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        .logo{
+            display: flex;
+            gap: 8px;
+            font-weight: bold;
+            align-items: center;
+
+            img{
+                width: 25px;
+                height: 25px;
+            }
+
+            
+        }
+    }
+
+    .right{
+        flex: 2;
+        background: rgb(0, 0, 0);
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        
+            .uinfo{
+                display: flex;
+                
+
+                
+                
+                
+                .user-info{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    gap: 10px;
+                    position: relative;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        border: 2px solid white;
+                        object-fit: cover;
+                        margin-right: -15px;
+                        cursor: pointer;
+                        
+                    }
+                    span{
+                        font-weight: 500;
+                        cursor: pointer;
+                        font-size: 19px;
+                        
+                        
+                    }
+
+                    .notification{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        background-color: red;
+                        border-radius: 50%;
+                        padding: 2px;
+                        width: 15px;
+                        height: 15px;
+                        font-size: 11px;
+                        position: absolute;
+                        top: 0px;
+                        right: -18px;
+                        
+                    }
+                
+                    
+                }
+            }
+            
+            
+            
+        
+
+       
+
+        
+
+        a{
+            margin: 10px;
+            padding: 10px 20px;
+        }
+
+        .menuIcon{
+            z-index: 999;
+            display: none;
+            cursor: pointer;
+            img{
+                width: 30px;
+                height: 30px;
+            }
+
+            
+        }
+
+        .menu{
+
+            display: none;
+           
+            
+            
+            position: absolute;
+            height: 100vh;
+            width: 50%;
+            background-color: black;
+            color: white;
+            top: 0;
+            right: -50%;
+            transition: 1s ease;
+            padding-top: 70px;
+            font-size: 18px;
+            
+
+            &.active{
+                right: 0;
+            }
+
+            
+        }
+
+        
+    }
+}
