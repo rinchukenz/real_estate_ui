@@ -1,3 +1,5 @@
+
+
 .searchbar{
     width: 100%;
     margin-top: 45px;
@@ -24,6 +26,7 @@
         display: flex;
         width: 100%;
         border: solid 1px rgb(5, 5, 5);
+        
         input{
             flex: 2;
             border: none;
@@ -32,6 +35,7 @@
             &:focus{
                 border: 0.5px solid grey;
             }
+            
         }
 
         .button{

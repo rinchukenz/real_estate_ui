@@ -1,6 +1,10 @@
+
+
 .homepage{
     display: flex;
     height: calc(100vh - 60px);
+    
+    
     
 
     .text-container{
@@ -8,6 +12,8 @@
         height: 100%;
         background-color: whitesmoke;
         padding-left: 30px;
+        
+        
         
         .wrapper{
             padding-right: 87px;
@@ -54,6 +60,8 @@
         flex: 2; 
         background: rgb(0, 0, 0);
         position: relative; 
+        
+        
 
         img{
             //position: absolute;
